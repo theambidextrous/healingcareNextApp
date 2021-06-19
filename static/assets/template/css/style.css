@@ -1,119 +1,4 @@
-/*
-======================================
-  * CSS TABLE CONTENT *  
-======================================
 
-1. GENERAL
-
-2. HEADINGS
-
-3. TEXT & PARAGRAPH
-
-4. LISTS
-
-5. BOX SPACING (inner & outer)
-	>padding
-	>marging
-	
-6. BOX MAX-WIDTH CSS
-
-7. POSITIONS ( absolute & relative & statice & z-index )
-
-8. COLOR (text & background)
-	>text color
-	>background color
-
-9. IMAGES OVERLAY EFFECTS (overly animation on images)
-
-10. IMAGES EFFECTS (image animation in images)
-	 >image-opacity
-	 >image-zoom
-	 >image-zoom-slow
-	 >image-shrink
-	 >image-side-pan
-	 >image-vertical-pan
-	 >image-fade-in
-	 >image-fade-out 
-	 >image-rotate
-	 >image-sepia
-	 >image-blurr
-	 >image-blurr-invert
-	 >image off color
-	 >image on color
- 
-
-11. CONTENT SHOW ON IMAGE BOX
- 
-12. FORM ELEMENTS
-
-13. WP DEFAULT
-
-14. HEADER (top part of page)
-
-15. PAGE TOP BAR (left & right content)
-
-16. LOGO ( company identify  symbol )
-
-17. MAIN BAR ( place logo & main-navigation )
-
-18. NAVIGATIONS
-	>mena-menu
-	>mobile-menu
-	>footer-menu
-	
-19. BANNER
-
-20. SLIDER
-	>rs slider
-	>owl slider
-	
-21. BLOG
-	
-22. WIDGETS
-
-23. CUSTOMIZE CSS
-	>set-radius
-	>transition
-	>float-clearfix
-	
-24. SORTCODES 
-	>Buttons
-	>Title separators		
-	>Deviders	
-	>Lists & bullets	
-	>Tabs
-	>Accordians		
-	>Carousels	
-	>Testimonials	
-	>Pricing table
-	>Alert box	
-	>Modal pop
-	>Social icons
-	>Breadcrumb
-	>Tables
-	>Image effects
-
-25. PAGINATION
-
-26. FOOTER
-
-27. PAGE-CONTENT
-
-28. INNER-CONTENT
-
-29. SIDE-NAV
-
-30. CONTACT
-
-31. SHOPPING
-
-======================================
-  * END TABLE CONTENT *  
-======================================
-*/
-/*--------------------------------------------------------------
-1. GENERAL
----------------------------------------------------------------*/
 body, html {
      -moz-osx-font-smoothing: grayscale;
 }
@@ -4146,7 +4031,7 @@ blockquote:before {
     height: 800px;
 }
 .dez-bnr-inr.dez-bnr-inr-md {
-    height: 460px;
+    height:377px;
 }
 .dez-bnr-inr.dez-bnr-inr-sm {
     height: 450px;
@@ -4169,8 +4054,9 @@ blockquote:before {
 	text-align: center;
 }
 .dez-bnr-inr-entry.align-m {
-    vertical-align: top;
+    vertical-align: bottom;
     padding-top: 40px;
+    padding-bottom: 20px;
 }
 .banner-inner-row h1,
 .banner-inner-row h2,

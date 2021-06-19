@@ -935,7 +935,7 @@ function PostAJobPage( props ) {
                                         </div>
                                     </div>
                                     <div className="col-lg-7">
-                                        {/* <button type="submit" className="btn btn-purple btn-block btn-sm btn-ios "> Post a Job </button> */}
+                                        <button style={{fontSize:20,padding:20,fontWeight:'900'}} disabled={!stripe} type="submit" className="site-button bg-danger"> Post Your Job - ${state.invAmount} </button>
                                     </div>
                                 </div>
 
