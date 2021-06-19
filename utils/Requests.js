@@ -1,4 +1,4 @@
-import conf from "./config";
+import conf from "./Config";
 
 const loginUser = (postData) => {
   return fetch(conf.base_api + "users/login", {
