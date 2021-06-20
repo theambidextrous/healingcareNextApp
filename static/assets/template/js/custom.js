@@ -613,7 +613,7 @@ var JobBoard = function(){
 	}
 	
 	var handleSupport = function(){
-		var support = '<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5b221c5e31b4e54b"></script>';
+		var support = null;
 		jQuery('body').append(support);
 	}
 	
@@ -650,7 +650,7 @@ var JobBoard = function(){
 			handleSideBarMenu();
 			// cartButton();
 			handleBannerResize();
-			handleSupport();
+			// handleSupport();
 			handleResize();
 			jQuery('.modal').on('show.bs.modal', reposition);
 		},
