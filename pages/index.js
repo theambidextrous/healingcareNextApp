@@ -54,7 +54,8 @@ function Index({ title, subtitle}) {
     <React.Fragment>
     <Layout>
       {/* Banner start */}
-      <div className="dez-bnr-inr dez-bnr-inr-md" style={{backgroundImage: 'url(/static/assets/template/images/main-slider/slide2.jpg)'}}>
+      {/* <div className="dez-bnr-inr dez-bnr-inr-md" style={{backgroundImage: 'url(/static/assets/template/images/main-slider/slidfe2.jpg)'}}> */}
+      <div className="dez-bnr-inr dez-bnr-inr-md">
         <div className="container">
           <div className="dez-bnr-inr-entry align-m ">
             <div className="find-job-bx">

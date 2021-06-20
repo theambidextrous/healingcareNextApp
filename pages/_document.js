@@ -27,13 +27,15 @@ export default class HTDocument extends Document {
                     <title>HealingCareJobs - The only website dedicated exclusively to healthcare jobs across states in the United States</title>
                     <meta name="viewport" content="width=device-width, initial-scale=1" />
                     <link rel="stylesheet" type="text/css" href="/static/assets/template/css/plugins.css" />
-                    <link rel="stylesheet" type="text/css" href="/static/assets/template/css/style.css" />
-                    <link rel="stylesheet" type="text/css" href="/static/assets/template/css/templete.css" />
-                    <link className="skin" rel="stylesheet" type="text/css" href="/static/assets/template/css/skin/skin-1.css" />
-                    {/* <link rel="stylesheet" href="/static/assets/template/plugins/datepicker/css/bootstrap-datetimepicker.min.css" /> */}
-                    {/* <link rel="stylesheet" type="text/css" href="/static/assets/template/plugins/revolution/revolution/css/layers.css" /> */}
-                    {/* <link rel="stylesheet" type="text/css" href="/static/assets/template/plugins/revolution/revolution/css/settings.css" /> */}
-                    {/* <link rel="stylesheet" type="text/css" href="/static/assets/template/plugins/revolution/revolution/css/navigation.css" /> */}
+                    <link rel="stylesheet" type="text/css" href="/static/assets/template/css/templete.css"/>
+                    <link rel="stylesheet" type="text/css" href="/static/assets/template/css/style.css"/>
+                    
+                    <link rel="preload" href="/static/assets/template/css/skin/skin-1.css" as="style" onload="this.onload=null;this.rel='stylesheet'"/>
+                    <noscript>
+                        <link rel="stylesheet" href="/static/assets/template/css/skin/skin-1.css"/>
+                    </noscript>
+
+                    {/* <link className="skin" rel="stylesheet" type="text/css" href="/static/assets/template/css/skin/skin-1.css" /> */}
                 </Head>
                 <body id="bg">
                     <Main />

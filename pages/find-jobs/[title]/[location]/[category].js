@@ -55,7 +55,8 @@ function FindJobsPage() {
   return (
     <Layout>
       {/* Banner start */}
-      <div className="dez-bnr-inr dez-bnr-inr-md" style={{backgroundImage: 'url(/static/assets/template/images/main-slider/slide2.jpg)', height:290, maxHeight:290}}>
+      {/* <div className="dez-bnr-inr dez-bnr-inr-md" style={{backgroundImage: 'url(/static/assets/template/images/main-slider/slide2d.jpg)', height:290, maxHeight:290}}> */}
+      <div className="dez-bnr-inr dez-bnr-inr-md" style={{height:290, maxHeight:290}}>
         <div className="container">
           <div className="dez-bnr-inr-entry align-m ">
             <div className="find-job-bx">

@@ -9,7 +9,8 @@ function AboutPage() {
   return (
     <Layout>
       {/* Banner start */}
-        <div className="dez-bnr-inr overlay-black-middle" style={{backgroundImage: 'url(/static/assets/template/images/main-slider/slide2.jpg)', height:190, maxHeight:190,}}>
+        {/* <div className="dez-bnr-inr overlay-black-middle" style={{backgroundImage: 'url(/static/assets/template/images/main-slider/slided2.jpg)', height:190, maxHeight:190,}}> */}
+        <div className="dez-bnr-inr overlay-black-middle" style={{height:190, maxHeight:190,}}>
             <div className="container">
                 <div className="dez-bnr-inr-entry">
                     <h1 className="text-white">About HealingCareJobs</h1>

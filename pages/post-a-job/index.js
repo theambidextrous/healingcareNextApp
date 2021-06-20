@@ -577,7 +577,8 @@ function PostAJobPage( props ) {
     return (
         <Layout>
         {/* Banner start */}
-        <div className="dez-bnr-inr dez-bnr-inr-md" style={{backgroundImage: 'url(/static/assets/template/images/main-slider/slide2.jpg)', height:200, maxHeight:200}}>
+        {/* <div className="dez-bnr-inr dez-bnr-inr-md" style={{backgroundImage: 'url(/static/assets/template/images/main-slider/slide2d.jpg)', height:200, maxHeight:200}}> */}
+        <div className="dez-bnr-inr dez-bnr-inr-md" style={{height:200, maxHeight:200}}>
             <div className="container">
             <div className="dez-bnr-inr-entry align-m ">
                 <div className="find-job-bx">

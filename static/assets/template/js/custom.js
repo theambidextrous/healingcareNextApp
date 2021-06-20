@@ -90,8 +90,8 @@ var JobBoard = function(){
 			if($('.mo-left .header-nav').children('div').length == 0){
 				var logoData = jQuery('<div>').append($('.mo-left .logo-header').clone()).html();
 				jQuery('.mo-left .header-nav').prepend(logoData);
-				jQuery('.mo-left .header-nav .logo-header > a > img').attr('src','images/logo.png');
-				jQuery('.mo-left.lw .header-nav .logo-header > a > img').attr('src','images/logo-white.png');
+				// jQuery('.mo-left .header-nav .logo-header > a > img').attr('src','images/logo.png');
+				// jQuery('.mo-left.lw .header-nav .logo-header > a > img').attr('src','images/logo-white.png');
 			}
 		}else{
 			jQuery('.mo-left .header-nav div').empty();
