@@ -30,10 +30,10 @@ export default class HTDocument extends Document {
                     <link rel="stylesheet" type="text/css" href="/static/assets/template/css/style.css" />
                     <link rel="stylesheet" type="text/css" href="/static/assets/template/css/templete.css" />
                     <link className="skin" rel="stylesheet" type="text/css" href="/static/assets/template/css/skin/skin-1.css" />
-                    <link rel="stylesheet" href="/static/assets/template/plugins/datepicker/css/bootstrap-datetimepicker.min.css" />
-                    <link rel="stylesheet" type="text/css" href="/static/assets/template/plugins/revolution/revolution/css/layers.css" />
-                    <link rel="stylesheet" type="text/css" href="/static/assets/template/plugins/revolution/revolution/css/settings.css" />
-                    <link rel="stylesheet" type="text/css" href="/static/assets/template/plugins/revolution/revolution/css/navigation.css" />
+                    {/* <link rel="stylesheet" href="/static/assets/template/plugins/datepicker/css/bootstrap-datetimepicker.min.css" /> */}
+                    {/* <link rel="stylesheet" type="text/css" href="/static/assets/template/plugins/revolution/revolution/css/layers.css" /> */}
+                    {/* <link rel="stylesheet" type="text/css" href="/static/assets/template/plugins/revolution/revolution/css/settings.css" /> */}
+                    {/* <link rel="stylesheet" type="text/css" href="/static/assets/template/plugins/revolution/revolution/css/navigation.css" /> */}
                 </Head>
                 <body id="bg">
                     <Main />
@@ -44,22 +44,22 @@ export default class HTDocument extends Document {
                     </div>
                     <script src="/static/assets/template/js/jquery.min.js"></script>
                     <script src="/static/assets/template/plugins/wow/wow.js"></script>
-                    <script src="/static/assets/template/plugins/bootstrap/js/popper.min.js"></script>
+                    {/* <script src="/static/assets/template/plugins/bootstrap/js/popper.min.js"></script> */}
                     <script src="/static/assets/template/plugins/bootstrap/js/bootstrap.min.js"></script>
                     <script src="/static/assets/template/plugins/bootstrap-select/bootstrap-select.min.js"></script>
                     <script src="/static/assets/template/plugins/bootstrap-touchspin/jquery.bootstrap-touchspin.js"></script>
-                    <script src="/static/assets/template/plugins/magnific-popup/magnific-popup.js"></script>
-                    <script src="/static/assets/template/plugins/counter/waypoints-min.js"></script>
-                    <script src="/static/assets/template/plugins/counter/counterup.min.js"></script>
-                    <script src="/static/assets/template/plugins/imagesloaded/imagesloaded.js"></script>
-                    <script src="/static/assets/template/plugins/masonry/masonry-3.1.4.js"></script>
-                    <script src="/static/assets/template/plugins/masonry/masonry.filter.js"></script>
-                    <script src="/static/assets/template/plugins/owl-carousel/owl.carousel.js"></script>
-                    <script src="/static/assets/template/plugins/rangeslider/rangeslider.js" ></script>
+                    {/* <script src="/static/assets/template/plugins/magnific-popup/magnific-popup.js"></script> */}
+                    {/* <script src="/static/assets/template/plugins/counter/waypoints-min.js"></script> */}
+                    {/* <script src="/static/assets/template/plugins/counter/counterup.min.js"></script> */}
+                    {/* <script src="/static/assets/template/plugins/imagesloaded/imagesloaded.js"></script> */}
+                    {/* <script src="/static/assets/template/plugins/masonry/masonry-3.1.4.js"></script> */}
+                    {/* <script src="/static/assets/template/plugins/masonry/masonry.filter.js"></script> */}
+                    {/* <script src="/static/assets/template/plugins/owl-carousel/owl.carousel.js"></script> */}
+                    {/* <script src="/static/assets/template/plugins/rangeslider/rangeslider.js" ></script> */}
                     <script src="/static/assets/template/js/custom.js"></script>
-                    <script src="/static/assets/template/js/dz.carousel.js"></script>
-                    <script src="/static/assets/template/js/dz.ajax.js"></script>
-                    <script src="/static/assets/template/plugins/paroller/skrollr.min.js"></script>
+                    {/* <script src="/static/assets/template/js/dz.carousel.js"></script> */}
+                    {/* <script src="/static/assets/template/js/dz.ajax.js"></script> */}
+                    {/* <script src="/static/assets/template/plugins/paroller/skrollr.min.js"></script> */}
                 </body>
             </html>
         )

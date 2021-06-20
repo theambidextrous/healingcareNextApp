@@ -630,12 +630,12 @@ var JobBoard = function(){
 		init:function(){
 			boxHover();
 			wow_animation();
-			priceslider();
+			// priceslider();
 			onePageLayout();
-			dzTheme();
+			// dzTheme();
 			handleResizeElement();
 			homeSearch();
-			MagnificPopup();
+			// MagnificPopup();
 			handleAccordian();
 			scrollTop();
 			handlePlaceholder();
@@ -643,12 +643,12 @@ var JobBoard = function(){
 			fileInput();
 			headerFix();
 			setDivHeight();
-			handleVideo();
-			handleFilterMasonary();
-			handleCountDown(WebsiteLaunchDate);
+			// handleVideo();
+			// handleFilterMasonary();
+			// handleCountDown(WebsiteLaunchDate);
 			handleCustomScroll();
 			handleSideBarMenu();
-			cartButton();
+			// cartButton();
 			handleBannerResize();
 			handleSupport();
 			handleResize();

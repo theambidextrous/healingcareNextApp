@@ -2,6 +2,9 @@
 	Custom css
 ==========================*/
 /* Header */
+body {
+    background-color: #a8fff7!important;
+}
 .fullwidth .logo-header{
 	margin-right:30px;
 }
