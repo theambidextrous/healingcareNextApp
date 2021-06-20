@@ -30,12 +30,12 @@ export default class HTDocument extends Document {
                     <link rel="stylesheet" type="text/css" href="/static/assets/template/css/templete.css"/>
                     <link rel="stylesheet" type="text/css" href="/static/assets/template/css/style.css"/>
                     
-                    <link rel="preload" href="/static/assets/template/css/skin/skin-1.css" as="style" onload="this.onload=null;this.rel='stylesheet'"/>
+                    {/* <link rel="preload" href="/static/assets/template/css/skin/skin-1.css" as="style" onload="this.onload=null;this.rel='stylesheet'"/>
                     <noscript>
                         <link rel="stylesheet" href="/static/assets/template/css/skin/skin-1.css"/>
-                    </noscript>
+                    </noscript> */}
 
-                    {/* <link className="skin" rel="stylesheet" type="text/css" href="/static/assets/template/css/skin/skin-1.css" /> */}
+                    <link className="skin" rel="stylesheet" type="text/css" href="/static/assets/template/css/skin/skin-1.css" />
                 </Head>
                 <body id="bg">
                     <Main />
