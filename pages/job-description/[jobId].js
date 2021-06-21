@@ -4,16 +4,18 @@ import { useRouter } from 'next/router';
 import JobDetails from '../../components/JobDetails';
 import { getJob } from '../../utils/Requests';
 
-function JobDescription() {
+function JobDescription( { headingTitle }) {
   const router = useRouter();
   const [jobid, setJobId] = React.useState(null);
   const [jobdata, setJobData] = React.useState({});
   React.useEffect(() => {
-    let job_id = parseInt(router.query.jobId);
+    // let job_id = parseInt(router.query.jobId);
+    const job_id = window.location.pathname.split('/').slice(-1).pop();
+    console.log('job id', job_id)
     setJobId(job_id);
     getJob(job_id)
     .then( (res) => {
-        console.log('jobid', job_id);
+        // console.log('jobid', job_id);
         setJobData(res.payload);
     })
     .catch((err) => {
@@ -35,7 +37,7 @@ function JobDescription() {
                     <div className="breadcrumb-row">
                         <ul className="list-inline">
                             <li><a href={ process.env.appRoot }>Home</a></li>
-                            <li>Job Description</li>
+                            <li>{ headingTitle }</li>
                         </ul>
                     </div>
                 </div>
@@ -51,6 +53,10 @@ function JobDescription() {
 
   );
 }
-// export function getStaticProps(){}
+
+export async function getServerSideProps() {
+  let headingTitle = 'ob Description'
+  return { props: { headingTitle } }
+}
 
 export default JobDescription;
