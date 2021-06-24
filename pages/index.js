@@ -60,7 +60,7 @@ function Index({ title, subtitle}) {
           <div className="dez-bnr-inr-entry align-m ">
             <div className="find-job-bx">
               {/* <p className="site-button button-sm">Find Healthcare Jobs &amp;  Healthcare Career Opportunities</p> */}
-              <h2><span className="text-primary">HealingCareJobs</span> is the only website <br/> dedicated exclusively to healthcare jobs.</h2>
+              <h2><span className="text-primary">HealingCareJobs</span> is the only website dedicated exclusively to healthcare jobs.</h2>
               <h6>
                 <div className="extra-cell">
                   <a href="/post-a-job" className="site-button"><i className="fa fa-briefcase" /> Post A Job Today</a>
