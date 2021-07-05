@@ -1,6 +1,6 @@
 
 // import Link from 'next/link';
-function Header(props) {
+function Header() {
     return (
         <header className="site-header mo-left header fullwidth">
             <div className="sticky-header main-bar-wraper navbar-expand-lg">
@@ -17,14 +17,10 @@ function Header(props) {
                     <div className="extra-nav">
                         <div className="extra-cell">
                             <a href="/post-a-job" className="site-button"><i className="fa fa-briefcase" /> Post A Job</a>
-                            {/* <a href="#" className="site-button"><i className="fa fa-lock" /> login</a> */}
                         </div>
                     </div>
                     <div className="dez-quik-search bg-primary">
-                    <form action="#">
-                        {/* <input name="search" defaultValue type="text" className="form-control" placeholder="Type to search" /> */}
-                        {/* <span id="quik-search-remove"><i className="flaticon-close" /></span> */}
-                    </form>
+                        <form action="#"></form>
                     </div>
                     <div className="header-nav navbar-collapse collapse justify-content-start" id="navbarNavDropdown">
                     <ul className="nav navbar-nav">
@@ -34,10 +30,6 @@ function Header(props) {
 
                         <li>
                         <a href="/about-us">About HealingCare</a>
-                        </li>
-
-                        <li>
-                        {/* <a href="#">Top Employers </a> */}
                         </li>
 
                         <li>

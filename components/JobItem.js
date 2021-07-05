@@ -38,7 +38,7 @@ function JobItem({ job }) {
                 )}
             </div>
             <div className="job-post-info">
-                <h5 style={{color:getForegroundColor(determineHighlight(job))}}>{ title }</h5>
+                <h5 className="jobItem" style={{color:getForegroundColor(determineHighlight(job))}}>{ title }</h5>
                 <ul>
                 <li style={{color:getForegroundColor(determineHighlight(job))}}><i className="fa fa-map-marker" /> { location }</li>
                 <li style={{color:getForegroundColor(determineHighlight(job))}}><i className="fa fa-building-o" /> { organization }</li>
